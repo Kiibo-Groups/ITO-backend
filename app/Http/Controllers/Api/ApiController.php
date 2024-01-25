@@ -792,7 +792,7 @@ class ApiController extends Controller {
 			$msg = 'Hola '.$contact->name.$dnl;
 			$msg .= "Mensaje creado el: ".date('d-M-Y',strtotime(now()))." | ".date('h:i:A',strtotime(now())).$ddnl;
 
-			$msg .= "Estoy en un viaje en el aplicativo de VAGOMX".$ddnl;
+			$msg .= "Estoy en un viaje en el aplicativo de ITO".$ddnl;
 			$msg .= "**** y creo que estoy en peligro ****".$dnl;
 
 			$msg .= $nl;

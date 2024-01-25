@@ -907,15 +907,15 @@ class Delivery extends Authenticatable implements JWTSubject
             $res->save();
 
             $para       =   $data['email'];
-            $asunto     =   'Codigo de acceso - VAGOMX';
+            $asunto     =   'Codigo de acceso - ITO';
             $mensaje    =   "Hola ".$res->name." Un gusto saludarte, se ha pedido un codigo de recuperacion para acceder a tu cuenta en Zendit";
             $mensaje    .=  ' '.'<br>';
             $mensaje    .=  "Tu codigo es: <br />";
             $mensaje    .=  '# '.$otp;
             $mensaje    .=  "<br /><hr />Recuerda, si no lo has solicitado tu has caso omiso a este mensaje y te recomendamos hacer un cambio en tu contrasena.";
-            $mensaje    .=  "<br/ ><br /><br /> Te saluda el equipo de VAGOMX";
+            $mensaje    .=  "<br/ ><br /><br /> Te saluda el equipo de ITO";
         
-            $cabeceras = 'From: VAGOMX' . "\r\n";
+            $cabeceras = 'From: ITO' . "\r\n";
             
             $cabeceras .= 'MIME-Version: 1.0' . "\r\n";
             

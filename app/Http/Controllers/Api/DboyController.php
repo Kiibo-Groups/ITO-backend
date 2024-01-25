@@ -917,7 +917,7 @@ class DboyController extends Controller
 			$msg = 'Hola '.$contact->name.$dnl;
 			$msg .= "Mensaje creado el: ".date('d-M-Y',strtotime(now()))." | ".date('h:i:A',strtotime(now())).$ddnl;
 
-			$msg .= "Estoy en un viaje en el aplicativo de VAGOMX Conductores".$ddnl;
+			$msg .= "Estoy en un viaje en el aplicativo de ITO Conductores".$ddnl;
 			$msg .= "**** y creo que estoy en peligro ****".$dnl;
 
 			$msg .= $nl;

@@ -69,7 +69,7 @@
     $.ajax({
       async: true,
       type:'GET',
-      url:'https://vagomx.xedik.com/api/getAllStaffs',
+      url:'https://somosvagomx.com/api/getAllStaffs',
       success: function(resp) { 
         
           if (resp.data.length > 0) {
